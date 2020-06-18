@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "wx.mp",
+      "type": "cn.cloud.shopserviceweixin.weixin.config.WxMpProperties",
+      "sourceType": "cn.cloud.shopserviceweixin.weixin.config.WxMpProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "wx.mp.configs",
+      "type": "java.util.List<cn.cloud.shopserviceweixin.weixin.config.WxMpProperties$MpConfig>",
+      "description": "Description for wx.mp.configs.",
+      "sourceType": "cn.cloud.shopserviceweixin.weixin.config.WxMpProperties"
+    }
+  ],
+  "hints": []
+}

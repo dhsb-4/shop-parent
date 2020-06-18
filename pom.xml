@@ -10,6 +10,7 @@
         <module>shop-common</module>
         <module>shop-portal</module>
         <module>shop-entity</module>
+        <module>shop-api-dto</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -28,6 +29,27 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>swagger-bootstrap-ui</artifactId>
+            <version>1.9.3</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <!-- swagger-ui -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.9.2</version>
+        </dependency>
 
         <!-- 集成commons工具类 -->
         <dependency>
@@ -44,6 +66,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
         <!-- fastjson -->
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -108,5 +131,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

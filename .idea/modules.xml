@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/shop-api-dto/shop-api-dto.iml" filepath="$PROJECT_DIR$/shop-api-dto/shop-api-dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/shop-api-member-dto.iml" filepath="$PROJECT_DIR$/shop-api-dto/shop-api-member-dto/shop-api-member-dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-api-dto/shop-api-weixin-dto/shop-api-weixin-dto.iml" filepath="$PROJECT_DIR$/shop-api-dto/shop-api-weixin-dto/shop-api-weixin-dto.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-basics/shop-basics.iml" filepath="$PROJECT_DIR$/shop-basics/shop-basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-basics/shop-basics-apollo-config-server/shop-basics-apollo-config-server.iml" filepath="$PROJECT_DIR$/shop-basics/shop-basics-apollo-config-server/shop-basics-apollo-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-basics/shop-basics-codingapi- ZipKin/shop-basics-codingapi- ZipKin.iml" filepath="$PROJECT_DIR$/shop-basics/shop-basics-codingapi- ZipKin/shop-basics-codingapi- ZipKin.iml" />
@@ -11,7 +14,9 @@
       <module fileurl="file://$PROJECT_DIR$/shop-basics/shop-basics-xuxueli-xxljob/shop-basics-xuxueli-xxljob.iml" filepath="$PROJECT_DIR$/shop-basics/shop-basics-xuxueli-xxljob/shop-basics-xuxueli-xxljob.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-common/shop-common.iml" filepath="$PROJECT_DIR$/shop-common/shop-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-common/shop-common-core/shop-common-core.iml" filepath="$PROJECT_DIR$/shop-common/shop-common-core/shop-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-common/shop-common-web-core/shop-common-web-core.iml" filepath="$PROJECT_DIR$/shop-common/shop-common-web-core/shop-common-web-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-entity/shop-entity.iml" filepath="$PROJECT_DIR$/shop-entity/shop-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-entity/shop-entity-member/shop-entity-member.iml" filepath="$PROJECT_DIR$/shop-entity/shop-entity-member/shop-entity-member.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-entity/shop-entity-weixin/shop-entity-weixin.iml" filepath="$PROJECT_DIR$/shop-entity/shop-entity-weixin/shop-entity-weixin.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-parent.iml" filepath="$PROJECT_DIR$/shop-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-portal/shop-portal.iml" filepath="$PROJECT_DIR$/shop-portal/shop-portal.iml" />

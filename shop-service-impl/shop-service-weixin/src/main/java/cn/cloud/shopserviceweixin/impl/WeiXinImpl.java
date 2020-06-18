@@ -1,9 +1,8 @@
 package cn.cloud.shopserviceweixin.impl;
 
 import entity.Wx;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import serivce.WeiXin;
+import cn.cloud.shopserviceapiwixin.service.WeiXin;
 
 /**
  * @program: shop-parent

@@ -4,10 +4,54 @@
 
  spring:
    application:
-     name: weixin
+     name: app-service-weixin
+   redis:
+     host: 127.0.0.1
+     port: 6379
+     jedis:
+       pool:
+         max-idle: 100
+         min-idle: 1
+         max-active: 1000
+         max-wait: -1
+
 
 
  eureka:
    client:
      service-url:
        defaultZone: http://localhost:8100/eureka/
+
+
+
+ logging:
+   level:
+     org.springframework.web: INFO
+     com.github.binarywang.demo.wx.mp: DEBUG
+     me.chanjar.weixin: DEBUG
+ wx:
+   mp:
+     configs:
+       - appId: wxb3c943edebd0ea97
+         secret: 69992e64ca2970262c8507071a11156a
+         token: dhsb
+
+
+
+ dh: 您的注册码为:%s，请关注<a href="https://ke.qq.com/course/273548">腾讯课堂免费公开课</a>，欢迎观看97后架构师余老师的精品课程讲解。官方QQ群：<a href='https://jq.qq.com/?_wv=1027&k=5TVfAMF'>193086273</a>，期待你的加入，感谢！
+ sb: 大海已收到您的消息，稍后会给你回复
+
+ #hystrix的超时时间
+ hystrix:
+   command:
+     default:
+       execution:
+         timeout:
+           enabled: true
+         isolation:
+           thread:
+             timeoutInMilliseconds: 30000
+ #ribbon的超时时间
+ ribbon:
+   ReadTimeout: 30000
+   ConnectTimeout: 30000

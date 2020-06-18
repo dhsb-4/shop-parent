@@ -2,6 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-api-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-api-dto/shop-api-member-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-api-dto/shop-api-weixin-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-basics" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-basics/shop-basics-apollo-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-basics/shop-basics-codingapi- ZipKin" charset="UTF-8" />
@@ -11,7 +14,9 @@
     <file url="file://$PROJECT_DIR$/shop-basics/shop-basics-xuxueli-xxljob" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-common/shop-common-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-common/shop-common-web-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-entity/shop-entity-member" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-entity/shop-entity-weixin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-portal" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-portal/shop-portal-cms" charset="UTF-8" />

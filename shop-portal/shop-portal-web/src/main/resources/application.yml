@@ -1,0 +1,36 @@
+#### 整合freemarker
+spring:
+  freemarker:
+    cache: false
+    charset: UTF-8
+    check-template-location: true
+    content-type: text/html
+    expose-request-attributes: true
+    expose-session-attributes: true
+    request-context-attribute: request
+    suffix: .ftl
+    template-loader-path:
+      - classpath:/templates
+  application:
+    name: app-portal-web
+    #允许存在多个Feign调用相同Service的接口
+  main:
+    allow-bean-definition-overriding: true
+
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+
+###服务注册到eureka地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8100/eureka

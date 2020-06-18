@@ -1,0 +1,36 @@
+ server:
+   port: 8400
+
+ spring:
+   application:
+     name: zuul
+
+
+ eureka:
+   client:
+     service-url:
+       defaultZone: http://localhost:8100/eureka/
+
+
+ ribbon:
+   ReadTimeout: 60000
+   ConnectTimeout: 60000
+
+ hystrix:
+   command:
+     default:
+       execution:
+         isolation:
+           thread:
+             timeoutInMilliseconds: 60000
+
+ zuul:
+   routes:
+     app:
+       service:
+         weixin:
+           path: /api/weixin/**
+           serviceId: app-service-weixin
+         member:
+           path: /api/member/**
+           serviceId: app-service-member
